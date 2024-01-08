@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(226, 247, 235);
+}
+.screen-area{
+    width: 90%;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 6%;
+    
+}
+.left{
+    width: 35%;
+    height: 530px;
+    border-radius: 35px;
+    background: linear-gradient(210deg, #3CE074 2.75%, #1B7B3C 99.07%);
+    flex: 1;
+    margin-left: 9%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+.right{
+    width: 30%;
+    height: 530px;
+    border-radius: 35px;
+    flex: 1;
+    margin-right: 4%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.sch-name{
+    color: #1B7B3C;
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 34px;
+margin-top: 90px;
+}
+.sch-name2{
+    color: #1B7B3C;
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+}
+.log{
+    color: #0f4220f1;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.head{
+    color: #FFF;
+font-family: sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+margin-top: 38px;
+margin-bottom: 70px;
+}
+label{
+    color: #FFF;
+font-family: sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+margin-left: 10%;
+
+}
+input[type=email]{
+    width: 80%;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.911);
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 30px;
+margin-top: 5px;
+border: none;
+outline: none;
+padding: 5px 14px 5px 14px;
+box-sizing: border-box;
+transition: 0.5s;
+letter-spacing: 1px;
+}
+input[type=email]:focus{
+    height: 55px;
+    transition: 0.5s;
+}
+input[type=password]{
+    width: 80%;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.911);
+margin-left: 10%;
+margin-right:10%;
+margin-bottom: 60px;
+margin-top: 5px;
+border: none;
+outline: none;
+padding: 5px 14px 5px 14px;
+box-sizing: border-box;
+transition: 0.5s;
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+letter-spacing: 3px;
+}
+input[type=password]:focus{
+    height: 55px;
+    transition: 0.5s;
+}
+input[type=submit]{
+    border-radius: 3px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 30%;
+height: 41px;
+border-radius: 7px;
+margin-left: 35%;
+margin-right:35%;
+color: #0F4220;
+font-family: sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+transition: 0.3s;
+margin-bottom: 40px;
+}
+input[type=submit]:hover{
+   font-size: 16px;
+    transition: 0.3s;
+    background: #ffffffb9;
+
+}
+.register{
+    font-size: 14px;
+    text-align: center;
+    color: #b2d8b6;
+    font-family: sans-serif;
+}
+.register a{
+    color: #3314e2;
+    font-size: 16px;
+}
+.register a:hover{
+    color: #c4e0c6;
+}
+@media (max-width:1100px){
+  body{
+    overflow: auto;
+  }
+  .sch-name{
+    font-size: 25px;
+    transition: 0.3s;
+    }
+    .sch-name2{
+    font-size: 24px;
+    transition: 0.3s;
+    }
+    .log{
+        font-size: 22px;
+        transition: 0.3s;
+    }
+    img{
+        width:150px;
+        height: 130px;
+        transition: 0.3s;
+    }
+    .right{
+        width: 25%;
+    }
+    .left{
+        width: 50%;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .head{
+        font-size: 18px;
+        transition: 0.3s;
+    }
+    label{
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    input[type=email]{
+        height: 40px;
+        transition: 0.3s;
+    }
+    input[type=password]{
+        height: 40px;
+        transition: 0.3s;
+    }
+    input[type=submit]{
+        height: 30px;
+        font-size: 14px;
+        width: 25%;
+        transition: 0.3s;
+    }
+}
+
+@media(max-width:700px){
+    
+  body{
+    height: 1200px;
+    overflow: auto;
+    transition: 0.3s;
+  }
+  .right{
+    position: absolute;
+    width: 100%;
+    top :0;
+    border-radius: 0;
+    height: 550px;
+    background: linear-gradient(210deg, #3CE074 2.75%, #1B7B3C 99.07%);
+    transition: 0.3s;
+  }
+
+  .left{
+    position: absolute;
+    top: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: 0.3s;
+  }
+  .sch-name{
+color: #ffffff;
+font-size: 22px;
+margin-bottom: 14px;
+margin-top: 190px;
+transition: 0.3s;
+}
+.sch-name2{
+    margin-top: 40px;
+font-size: 20px;
+color: #0e2e1fcb;
+transition: 0.3s;
+}
+.log{
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.screen-area{
+    margin: 0;
+    margin-bottom: 500px;
+    transition: 0.3s;
+}
+img{
+    width: 120px;
+    height: 100px;
+    transition: 0.3s;
+}
+.head{
+    font-size: 16px;
+    transition: 0.3s;
+}
+label{
+    font-size: 13px;
+    transition: 0.3s;
+}
+input[type=email]{
+    height: 40px;
+    transition: 0.3s;
+}
+input[type=password]{
+    height: 40px;
+    transition: 0.3s;
+}
+input[type=submit]{
+    height: 30px;
+    font-size: 14px;
+    width: 25%;
+    transition: 0.3s;
+}
+}

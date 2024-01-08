@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/students.css"  type="text/css" rel="stylesheet">
+    <title>Allocation</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img class="fud-logo" src="/images/sch-logo.png" alt="" width="71px" height="58px">
+            <p class="sch-name2">SIWES</p>
+            <p class="log">E-Logbook</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a  href="/PAGES/dashboard.html">Dashboard</a></li>
+                <li><a href="/PAGES/students.html">Student</a></li>
+                <li><a href="/PAGES/lecturer.html">Lecturer</a></li>
+                <li><a class="active" href="/PAGES/industrial-supervisor.html">Industry Supervisor</a></li>
+                <li><a href="/PAGES/allocation.html">Allocation</a></li>
+                <li><a href="/PAGES/dashboard.html">Broadcast</a></li>
+            </ul>
+            <div class="drop">
+                <li id="bars"><a href="#"><img src="/images/Vector.svg" alt="" width="25px" height="17px"></a></li>
+                
+                  <div class="drop-cont">
+                    <ul>
+                        <li><a  href="/PAGES/dashboard.html">Dashboard</a></li>
+                        <li><a href="/PAGES/students.html">Student</a></li>
+                        <li><a href="/PAGES/lecturer.html">Lecturer</a></li>
+                        <li><a href="/PAGES/industrial-supervisor.html">Industry Supervisor</a></li>
+                        <li><a href="/PAGES/allocation.html">Allocation</a></li>
+                        <li><a href="/PAGES/broadcast.html">Broadcast</a></li>
+                </ul>
+                  </div>
+          
+                </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="sec-line">
+        <div class="heading">
+            <h1>Industry Supervisor</h1>
+        </div>
+        <div class="opt-line">
+            <a href="#view-student"> <div class="opt-g" >
+                <h1>View Industry Supervisor</h1>
+            </div></a>
+            <a href="#add-std"> <div class="opt-g">
+                <h1>Add Industry Supervisor</h1>
+            </div></a>
+           
+        </div>
+    </div>
+
+    <div class="Right">
+        <div id="add-std">
+            <form action="" method="post" id="student-info">
+                <div class="std-id">
+                    <h2>Supervisor's Information</h2>
+                </div>
+                <label for="text"> Title</label>
+                <br>
+                <input list="Title">
+                <datalist id="Title">
+                <option value="Prof">
+                <option value="Dr">
+                <option value="Mr">
+                <option value="Miss">
+                </datalist>
+                <br>
+                <label for="text">Supervisors Name</label>
+                <br>
+                <input type="text" name="Lecturer-Name" id="Lecturer-Name" >
+                <br>
+                <label for="company">Company's Name</label>
+                <br>
+                <input type="text" name="company's-name" id="company's-name" >
+                <br>
+                <br>
+                <label for="Phone-number">Phone Number</label>
+                <br>
+                <input type="tel" name="Phone-number" id="Phone-number">
+                <br>
+                <div class="clr"></div>
+                <div class="button-assign">
+                    <a href="/PAGES/done-page.html"> Submit </a>
+                </div>
+            </form>
+        </div>
+        <div class="std-lst" id="view-student">
+            <div class="std-id">
+                <h2>industrial-supervisor's List</h2>
+            </div>
+            <ul>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Musa Aliyu Halima</a></li>
+                <li class="std-list"><a id="profile1" href="/PAGES/Profile.html">Yunusa Ibrahim </a></li>
+                <li class="std-list"><a id="profile2" href="/PAGES/Profile.html">Kabiru Khadija </a></li>
+                <li class="std-list"><a id="profile3" href="/PAGES/Profile.html">Hedeyat Mustapha </a></li>
+                <li class="std-list"><a id="profile4" href="/PAGES/Profile.html">Precious Obi </a></li>
+                <li class="std-list"><a id="profile5" href="/PAGES/Profile.html">Bunmi Fakinlede </a></li>
+                <li class="std-list"><a id="profile6" href="/PAGES/Profile.html"> Frank Edward </a></li>
+                <li class="std-list"><a id="profile7" href="/PAGES/Profile.html">Sideso Precious</a></li>
+                <li class="std-list"><a id="profile8" href="/PAGES/Profile.html">Ibrahim Idris </a></li>
+                <li class="std-list"><a id="profile9" href="/PAGES/Profile.html">Yahya Adam </a></li>
+                <li class="std-list"><a id="profile0" href="/PAGES/Profile.html">Mustapha Shehu </a></li>
+                <li class="std-list"><a id="profile01" href="/PAGES/Profile.html">Robert Rob </a></li>
+                <li class="std-list"><a id="profile02" href="/PAGES/Profile.html">Abdullahi abdul </a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="text">
+        <a href="www.heemah-tech.com"><p class="footer-text">  <span id="copy">&copy; </span>    Heemah Tech</p></a>
+        <a href="mailto:rahimattaiwo@gmail.com"><p class="footer-text"> <img src="/images/icons8-gmail-48.png" alt=""  width="30" height="30"> Rahimattaiwo@gmail.com</p></a>
+        <a href="https://wa.me/09048457763" target="_blank" rel="noopener"><p class="footer-text"> <img src="/images/icons8-whatsapp-48.png" alt=""  width="30" height="30"> +234 9048457763</p></a>
+         <p class="button"><a href="/PAGES/login.html">Sign out</a><img src="/images/icons8-forward-26.png" alt=""  width="20" height="20"></p>
+    </div>
+    </div>

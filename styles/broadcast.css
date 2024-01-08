@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white;
+    overflow: hidden;
+}
+.nav-bar{
+    width: 100%;
+    background-color: #1B7B3C;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.nav{
+    float: right;
+    width: 80%;
+    text-align: end;
+}
+.fud-logo{
+    margin-top: 6px;
+}
+.nav ul{
+    margin-right: 20px;
+}
+.nav li{
+    display: inline;
+    font-family:  sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 38px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 20px 15px 15px 15px;
+    border-radius: 12px 12px 0px 0px;
+    transition: 0.5s;
+
+}
+.nav li a:hover{
+    padding: 20px 15px 15px 15px;
+    border-radius: 12px 12px 0px 0px;
+    background: rgba(217, 217, 217, 0.35);
+    transition: 0.5s;
+}
+.nav ul li .active{
+    border-radius: 12px 12px 0px 0px;
+    padding: 20px 15px 15px 15px;
+    color: #1B7B3C;
+    background: rgb(255, 253, 253);
+    transition: 0.5s;
+}
+.sch-name2{
+    color: #FFF;
+    font-family:  Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 80px;
+    top: -53px;
+}
+.log{
+    color: #FFF;
+    font-family:  Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 80px;
+    top: -53px;
+}
+#bars{
+    display: none;
+}
+.drop-cont{
+    display: none;
+  }
+.clr{
+    clear: both;
+}
+.sec-line{
+    width: 100%;
+    height: 100px;
+    margin-top: 110px;
+}
+.heading{
+    border-radius: 0px 10px 40px 0px;
+    background: #1B7B3C;
+    width: 30%;
+    height: 80px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    float: left;
+    text-align: end;
+    padding: 30px 45px 5px 5px;
+    box-sizing: border-box;
+}
+label{
+    color: #0F4220;
+    font-family:  sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+
+
+
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background:  #07752e;
+    overflow: hidden;
+    bottom: 0px;
+   
+}
+.footer p{
+
+display: inline;
+margin-left: 13%;
+margin-top: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.footer p:hover{
+    text-shadow: 3px 3px 3px #0c0c0c ;
+    
+}
+.text{
+    margin-top: 30px;
+}
+#copy{
+    font-size: 30px;
+    margin-top: 7px;
+}
+.footer img{
+    position: relative;
+    top: 7px;
+}
+.footer .button{
+    padding: 10px;
+    border: 2px solid  rgb(2, 56, 7);
+    border-radius: 7px;
+    background: #90b19c94;
+}
+.button a{
+    color: #181616;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.button:hover, .button a:hover {
+    background-color: #1B7B3C;
+    color: #f7f7f7;
+}/* Styling the select box */
+select {
+    appearance: none;
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling the select box on hover */
+  select:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Styling the select box on focus */
+  select:focus {
+    background-color: #d0d0d0;
+  }
+  
+  /* Styling the select box arrow */
+  select::after {
+    content: "\25BE";
+    font-size: 14px;
+    color: #888;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Styling the options inside the select box */
+  select option {
+    background-color: green;
+  }
+  @media (max-width:800px){
+    body{
+        height: 890px;
+      overflow-y: scroll;
+    }
+    .drop-cont ul li{
+        display: block;
+        padding-top: 30px;
+      }
+      .drop-cont {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #069642f1;
+        min-width: 160px;
+        height: 100vh;
+        padding: 12px 16px;
+        z-index: 1;
+    } 
+    .drop:hover .drop-cont {
+        display: block;
+    }
+    .nav li{
+        display: none;
+    }
+    #bars{
+        display: inline;
+    }
+    .footer{
+        height: 210px;
+        position: unset;
+    }
+    .footer p{
+
+        display: block;
+        margin-left: 13%;
+        margin-top: 7px;
+        }
+        .footer .button{
+            width: 15%;
+        }
+}

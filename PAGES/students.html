@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/students.css"  type="text/css" rel="stylesheet">
+    <title>Allocation</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img class="fud-logo" src="/images/sch-logo.png" alt="" width="71px" height="58px">
+            <p class="sch-name2">SIWES</p>
+            <p class="log">E-Logbook</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a  href="/PAGES/dashboard.html">Dashboard</a></li>
+                <li><a class="active"  href="/PAGES/students.html">Student</a></li>
+                <li><a href="/PAGES/lecturer.html">Lecturer</a></li>
+                <li><a href="/PAGES/industrial-supervisor.html">Industry Supervisor</a></li>
+                <li><a href="/PAGES/allocation.html">Allocation</a></li>
+                <li><a href="/PAGES/dashboard.html">Broadcast</a></li>
+            </ul>
+            <div class="drop">
+                <li id="bars"><a href="#"><img src="/images/Vector.svg" alt="" width="25px" height="17px"></a></li>
+                
+                  <div class="drop-cont">
+                    <ul>
+                        <li><a  href="/PAGES/dashboard.html">Dashboard</a></li>
+                        <li><a href="/PAGES/students.html">Student</a></li>
+                        <li><a href="/PAGES/lecturer.html">Lecturer</a></li>
+                        <li><a href="/PAGES/industrial-supervisor.html">Industry Supervisor</a></li>
+                        <li><a href="/PAGES/allocation.html">Allocation</a></li>
+                        <li><a href="/PAGES/broadcast.html">Broadcast</a></li>
+                </ul>
+                  </div>
+          
+        </div>
+        
+            </div>
+    </div>
+    <div class="clr"></div>
+    <div class="sec-line">
+        <div class="heading">
+            <h1>Student</h1>
+        </div>
+        <div class="opt-line">
+            <a href="#view-student"> <div class="opt-g" >
+                <h1>View Student</h1>
+            </div></a>
+            <a href="#add-std"> <div class="opt-g">
+                <h1>Add Student</h1>
+            </div></a>
+           
+        </div>
+    </div>
+
+   
+    <div class="Right">
+        <div id="add-std">
+            <form action="" method="post" id="student-info">
+                <div class="std-id">
+                    <h2>Student Information</h2>
+                </div>
+                <label for="text">Student Name</label>
+                <br>
+                <input type="text" name="student-name" id="student-name" required placeholder="Surname                           Firstname                       Othernane">
+                <br>
+                <label for="text">Registration Number</label>
+                <br>
+                <input type="text" name="Reg-No" id="Reg-No" placeholder="FCP/"  required>
+                <br>
+                <label for="">SIWES Location</label>
+                <br>
+                <input type="text" name="SIWES-location" id="SIWES-location" required>
+                <br>
+                <label for="SIWES-year">SIWES Year</label>
+                <br>
+                <input type="month" name="SIWES-year"  min="january-2022" id="SIWES-year" required>
+                <br>
+                <label for="Department">Department</label>
+                <br>
+                <input list="Department" required>
+                <datalist id="Department">
+                <option value="Computer Science">
+                <option value="Software Engineering">
+                <option value="Information Technology">
+                <option value="Cyber Security">
+                </datalist>
+                <br>
+                <label for="Phone-number">Phone Number</label>
+                <br>
+                <input type="tel" name="Phone-number" id="Phone-number" required>
+                <br>
+                <div class="clr"></div>
+                <div class="button-assign">
+                <a href="/PAGES/done-page.html"> Add </a>
+        </div>
+            </form>
+        </div>
+        <div class="std-lst" id="view-student">
+            <div class="std-id">
+                <h2>Student List</h2>
+            </div>
+            <ul>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Musa Aliyu Halima [FCP/CSE/19/107]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Yunusa Ibrahim [FCP/CSC/19/1003]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Kabiru Khadija [FCP/CIT/19/1013]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Hedeyat Mustapha [FCP/CSS/18/1012]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Precious Obi [FCP/CSC/18/1001]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Bunmi Fakinlede [FCP/CSC/17/1089]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html"> Frank Edward [FCP/CSC/16/1090]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Sideso Precious[FCP/CSC/15/1071]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Ibrahim Idris [FCP/CSC/17/1020]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Yahya Adam [FCP/CSS/17/1010]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Mustapha Shehu [FCP/CSC/18/1025]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Robert Rob [FCP/CIT/18/1059]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Abdullahi abdul [FCP/CSS/18/1019]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Ishola Abdul [FCP/CSC/15/1069]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Dauda Rahmat [FCP/CSE/13/1029]</a></li>
+                <li class="std-list"><a id="profile" href="/PAGES/Profile.html">Musa Jibrin [FCP/CSC8/1/1017]</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="text">
+        <a href="www.heemah-tech.com"><p class="footer-text">  <span id="copy">&copy; </span>    Heemah Tech</p></a>
+        <a href="mailto:rahimattaiwo@gmail.com"><p class="footer-text"> <img src="/images/icons8-gmail-48.png" alt=""  width="30" height="30"> Rahimattaiwo@gmail.com</p></a>
+        <a href="https://wa.me/09048457763" target="_blank" rel="noopener"><p class="footer-text"> <img src="/images/icons8-whatsapp-48.png" alt=""  width="30" height="30"> +234 9048457763</p></a>
+         <p class="button"><a href="/PAGES/login.html">Sign out</a><img src="/images/icons8-forward-26.png" alt=""  width="20" height="20"></p>
+    </div>
+    </div>
+</body>
+
+
+<!--<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getDatabase, set, ref,update} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,onAuthStateChanged,signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyAJbOl0ZPaBQK5RHZ8S-suYX90YeqLKuc8",
+    authDomain: "student-2213a.firebaseapp.com",
+    databaseURL: "https://student-2213a-default-rtdb.firebaseio.com",
+    projectId: "student-2213a",
+    storageBucket: "student-2213a.appspot.com",
+    messagingSenderId: "518626434742",
+    appId: "1:518626434742:web:e85bfda02dd76d0a071017"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+document.getElementById('student-info').addEventListener('submit',function(e){
+    e.preventDefault();
+    //get the form values
+    var studentname = document.getElementById('studentname').value;
+    var RegNo = document.getElementById('RegNo').value;
+    var SIWESlocation = document.getElementById('SIWESlocation').value;
+    var SWIESyear = document.getElementById('SIWESyear').value;
+    var Phonenumber = document.getElementById('Phonenumber').value;
+
+    //get a reference to the firestore database
+    var db = firebase.firestore();
+
+    db.collection("users").add({
+        Studentname:studentname,
+        Phonenumber:Phonenumber,
+        SIWESyear:SIWESyear,
+        SIWESlocation:SIWESlocation,
+        RegNo:RegNo
+    })
+    .then(function(docRef){
+        alert("successfully added",docRef.id);
+    })
+    .catch(function(error){
+        alert("error message",error);
+    })
+
+})
+</script>-->
+</html>

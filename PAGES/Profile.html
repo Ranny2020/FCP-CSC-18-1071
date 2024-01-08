@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/students.css"  type="text/css" rel="stylesheet">
+    <title>Allocation</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img class="fud-logo" src="/images/sch-logo.png" alt="" width="71px" height="58px">
+            <p class="sch-name2">SIWES</p>
+            <p class="log">E-Logbook</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a  href="/PAGES/dashboard.html">Dashboard</a></li>
+                <li><a class="active"  href="/PAGES/students.html">Student</a></li>
+                <li><a href="/PAGES/lecturer.html">Lecturer</a></li>
+                <li><a href="/PAGES/industrial-supervisor.html">Industry Supervisor</a></li>
+                <li><a href="/PAGES/allocation.html">Allocation</a></li>
+                <li><a href="/PAGES/dashboard.html">Broadcast</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="sec-line">
+        <div class="heading">
+            <h1>Student</h1>
+        </div>
+    </div>
+
+
+
+
+    <div class="Right">
+        <div id="add-std">
+            <form action="" method="post" id="student-info ">
+                <div class="std-id">
+                    <h2>Student Information</h2>
+                </div>
+                <label for="text">Student Name</label>
+                <br>
+                <input type="text" name="student-name" id="student name" placeholder="Surname                           Firstname                       Othernane" value="Musa Aliyu Halima" readonly>
+                <br>
+                <label for="text">Registration Number</label>
+                <br>
+                <input type="text" name="Reg-No" id="Reg-No" value="FCP/CSE/19/107" readonly>
+                <br>
+                <label for="">SIWES Location</label>
+                <br>
+                <input type="text" name="SIWES-location" id="SIWES-location" value="Kano" readonly>
+                <br>
+                <label for="SIWES-year">SIWES Year</label>
+                <br>
+                <input type="month" name="SIWES-year"  min="january-2022" id="SIWES-year" placeholder="July-2022">
+                <br>
+                <label for="Department">Department</label>
+                <br>
+                <input list="Department" value="Software Engineering" readonly>
+                <datalist id="Department">
+                <option value="Computer Science">
+                <option value="Software Engineering">
+                <option value="Information Technology">
+                <option value="Cyber Security">
+                </datalist>
+                <br>
+                <label for="Phone-number">Phone Number</label>
+                <br>
+                <input type="tel" name="Phone-number" id="Phone-number" value="08045678433" readonly>
+                <br>
+                <div class="clr"></div>
+            <div class="button-assign">
+        <a href="/PAGES/allocation.html"> Assign supervisor</a>
+    </div>
+            </form>
+        </div>
+    </div>
